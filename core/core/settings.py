@@ -63,11 +63,11 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
         "OPTIONS": {
-            "host": "os.getenv("host")",
-            "database": "os.getenv("database")",
-            "user": "os.getenv("user")",
-            "port": "os.getenv("port")",
-            "password": "os.getenv("password")",
+            "host": os.getenv("host"),
+            "database": os.getenv("database"),
+            "user": os.getenv("user"),
+            "port": os.getenv("port"),
+            "password": os.getenv("password"),
         },
     }
 }
